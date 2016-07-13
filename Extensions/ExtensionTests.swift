@@ -52,7 +52,7 @@ class StringExtensions: QuickSpec {
             
             it("points computed property should add 2 point for vowels") {
                 let vowels = "aeiouy"
-                expect(vowels.points).to(equal(12))
+                expect(vowels.points).to(equal(11))
             }
         }
         
@@ -126,7 +126,7 @@ class EmojiFun: QuickSpec {
             
             it("unicornLevel computed property should return unicorns") {
                 let name = "Joseph Gingle Heimer Schmitt"
-                expect(name.unicornLevel).to(equal("🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄"))
+                expect(name.unicornLevel).to(equal("🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄")) //25
             }
         }
     }
